@@ -28,17 +28,17 @@
             font-size: 1.5em;
         }
         
-        #nav1 {
+        .nav1 {
             float: right;
         }
         
-        #nav1 ul {
+        .nav1 ul {
             margin: 0;
             padding: 0;
             list-style: none;
         }
         
-        #nav1 ul li {
+        .nav1 ul li {
             display: inline-block;
             margin-left: 70px;
             padding-top: 10px;
@@ -46,18 +46,18 @@
             position: relative;
         }
         
-        #nav1 ul li a {
+        .nav1 ul li a {
             text-decoration: none;
             color: rgb(59, 59, 59);
             text-transform: uppercase;
             font-weight: 400;
         }
         
-        #nav1 ul li a:hover {
+        .nav1 ul li a:hover {
             color: #000
         }
         
-        #nav1 ul li a:before {
+        .nav1 ul li a:before {
             content: "";
             display: block;
             height: 5px;
@@ -68,7 +68,7 @@
             top: 0;
         }
         
-        #nav1 ul li a:hover:before {
+        .nav1 ul li a:hover:before {
             width: 100%;
             transition: all ease-in-out 300ms;
         }
@@ -95,10 +95,27 @@
             margin-left: 500px;
         }
         
-        #contact {
-            padding-top: 10px;
-            font-size: 20px;
-            color: white;
+        #footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: #222;
             text-align: center;
-            font-weight: 300;
+            height: 40px;
+        }
+        
+        #footer ul a {
+            padding-left: 30px;
+            color: rgb(49, 49, 49);
+            font-weight: 400;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        
+        p {
+            color: white;
+            margin-left: 20px;
+            margin-right: 20px;
         }

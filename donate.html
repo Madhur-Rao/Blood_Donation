@@ -6,31 +6,74 @@
     <meta charset="UTF-8">
     <meta name="description" content="A quizzing Website">
     <meta name="viewport" content="width=device-width, intial scale = 1.0">
-    <link rel="stylesheet" type="text/css" href="style3.css">
+    <link rel="stylesheet" type="text/css" href="style4.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito: 400,300" rel="stylesheet" type="text/css">
 </head>
-<header>
 
-</header>
 
 <body>
     <fieldset>
         <legend>
-            <span class="section">Donate Blood</span>
+            <span class="section"></span>
         </legend>
 
 
         <form action="" method="post">
+            <h1>Donate Blood</h1>
             <label for="name">Name</label>
             <input type="text" name="name" value="">
+            <br/>
 
             <label for="email">Email</label>
             <input type="email" name="Email" value="">
 
             <label for="password">Password</label>
             <input type="password" name="password" value="">
-            <label>Age: 18 or 18+</label>
-            <input type="radio" name="age" value="18 or 18+">
 
-        </form>
+            <label for="contact info">Contact No.</label>
+            <input type="text" name="contact info" value="">
+
+            <label>Age: 18 or 18+</label>
+            <input type="checkbox" name="age" value="18 or 18+">
+            <br/>
+            <br/>
+            <label for="blood_group">Blood Group</label>
+            <select name="blood-group">
+                <option value = "A+">A+</option>
+                <option value = "A-">A-</option>
+                <option value = "B+">B+</option>
+                <option value = "B-">B-</option>
+                <option value = "AB+">AB+</option>
+                <option value = "AB-">AB-</option>
+                <option value = "O+">O+</option>
+                <option value = "O-">O-</option>
+            </select>
+
+            <label for="Comments">Comments</label>
+            <textarea name="Comments"></textarea>
+
+
     </fieldset>
+    <button type="submit">Submit</button>
+
+    </form>
 </body>
+<footer>
+    <div class="nav1">
+        <nav id="footer">
+            <ul>
+                <a class="navicon_" href="https://www.iitr.ac.in/" target="_blank">IIT Roorkee</a>
+                <a class="navicon_" href="blood_donation.html">Home</a>
+                <a class="navicon_" href="https://www.iitr.ac.in/nss/cells.html" target="_blank">Cells</a>
+                <a class="navicon_" href="https://www.iitr.ac.in/nss/team.html" target="_blank">Team</a>
+                <a class="navicon_" href="https://www.iitr.ac.in/nss/contact.html" target="_blank">Contact & Feedback</a>
+                <a class="navicon_" href="https://docs.google.com/forms/d/e/1FAIpQLSeatcbPW934CrqOwcz2ed0v1iRMZ8RgsOJppMm87qDE9zK5eA/viewform" id="red" target="_blank">Blood Request</a>
+
+            </ul>
+        </nav>
+
+    </div>
+
+</footer>
+
+</html>
