@@ -1,0 +1,104 @@
+        body {
+            background-color: #222222;
+            margin: 0;
+        }
+        
+        .container {
+            margin: 0;
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        header {
+            background-color: #cc0000;
+        }
+        
+        header::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        #Name {
+            margin: 0 auto;
+            float: left;
+            opacity: 1.0;
+            padding: 10px 0;
+            color: whitesmoke;
+            font-size: 1.5em;
+        }
+        
+        #nav1 {
+            float: right;
+        }
+        
+        #nav1 ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        #nav1 ul li {
+            display: inline-block;
+            margin-left: 70px;
+            padding-top: 10px;
+            font-size: 1.3em;
+            position: relative;
+        }
+        
+        #nav1 ul li a {
+            text-decoration: none;
+            color: rgb(59, 59, 59);
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+        
+        #nav1 ul li a:hover {
+            color: #000
+        }
+        
+        #nav1 ul li a:before {
+            content: "";
+            display: block;
+            height: 5px;
+            background-color: #444;
+            position: absolute;
+            transition: all ease-in-out 250ms;
+            width: 0;
+            top: 0;
+        }
+        
+        #nav1 ul li a:hover:before {
+            width: 100%;
+            transition: all ease-in-out 300ms;
+        }
+        
+        blockquote {
+            font-size: 2rem;
+            color: #fff;
+            text-align: center;
+        }
+        
+        blockquote::before {
+            content: open-quote;
+            font-size: 3rem;
+            color: red
+        }
+        
+        blockquote::after {
+            content: close-quote;
+            font-size: 3rem;
+            color: red
+        }
+        
+        .slider {
+            margin-left: 500px;
+        }
+        
+        #contact {
+            padding-top: 10px;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            font-weight: 300;
+        }
